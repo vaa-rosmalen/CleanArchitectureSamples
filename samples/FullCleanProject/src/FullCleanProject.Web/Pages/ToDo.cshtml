@@ -1,0 +1,28 @@
+﻿@page
+@model FullCleanProject.Web.Pages.ToDoModel
+@{
+}
+
+<table class="table">
+     <caption>ToDo Items</caption>
+    <thead>
+    <tr>
+        <th scope="col">Description</th>
+        <th scope="col">Due date</th>
+        <th scope="col">Is done</th>
+    </tr>
+    </thead>
+    <tbody>
+    @if (Model.ToDoItems != null && Model.ToDoItems.Any())
+    {
+        foreach (var item in Model.ToDoItems)
+        {
+            <tr>
+                <td>@item.Description</td>
+                <td>@item.DueDate</td>
+                <td>@item.IsDone</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>

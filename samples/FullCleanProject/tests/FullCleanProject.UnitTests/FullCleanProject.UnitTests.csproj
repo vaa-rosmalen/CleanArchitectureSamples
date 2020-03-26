@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <LangVersion>8</LangVersion>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="2.8.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="FluentAssertions" Version="5.10.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FullCleanProject.Api\FullCleanProject.Api.csproj"/>
+    <ProjectReference Include="..\..\src\FullCleanProject.Application\FullCleanProject.Application.csproj" />
+    <ProjectReference Include="..\..\src\FullCleanProject.Domain\FullCleanProject.Domain.csproj" />
+    <ProjectReference Include="..\..\src\FullCleanProject.Infrastructure\FullCleanProject.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\FullCleanProject.Web\FullCleanProject.Web.csproj"/>
+    <ProjectReference Include="..\FullCleanProject.FakeData\FullCleanProject.FakeData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Shared\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\ToDoItems\" />
+    <Folder Include="Api\" />
+  </ItemGroup>
+</Project>

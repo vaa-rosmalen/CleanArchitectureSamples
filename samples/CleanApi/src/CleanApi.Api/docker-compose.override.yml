@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  cleanarchitecturecontainer.api:
+    build:
+      context: ../../
+      dockerfile: Dockerfile
+      args:
+        PROJECT_FILE: src/CleanApi.Api/CleanApi.Api.csproj
+        PROJECT_DLL: CleanApi.Api.dll

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_FullCleanProject.348568877.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.5.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Dockerfile" t="Include" />
+      <e p="FullCleanProject.sln" t="IncludeFlat" />
+      <e p="Solution Items" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src/FullCleanProject.Api" t="IncludeRecursive">
+        <e p="FullCleanProject.Api.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="ToDoItems" t="Include">
+          <e p="ToDoController.cs" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="docker-compose.override.yml" t="Include" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="src/FullCleanProject.Application" t="IncludeRecursive">
+        <e p="FullCleanProject.Application.csproj" t="IncludeRecursive" />
+        <e p="ToDoItems" t="Include">
+          <e p="Events" t="Include">
+            <e p="ToDoItemAddedEventHandler.cs" t="Include" />
+          </e>
+          <e p="Specifications" t="Include">
+            <e p="AllToDoItems.cs" t="Include" />
+            <e p="ToDoItemsByStatus.cs" t="Include" />
+          </e>
+          <e p="ToDoItemDto.cs" t="Include" />
+          <e p="UseCases" t="Include">
+            <e p="CreateNewItem" t="Include">
+              <e p="CreateToDoItemCommand.cs" t="Include" />
+              <e p="CreateToDoItemCommandHandler.cs" t="Include" />
+              <e p="CreateToDoItemRequest.cs" t="Include" />
+            </e>
+            <e p="ToDoItemsQuery.cs" t="Include" />
+            <e p="ToDoItemsQueryHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="src/FullCleanProject.Blazor" t="IncludeRecursive">
+        <e p="App.razor" t="Include" />
+        <e p="FullCleanProject.Blazor.csproj" t="IncludeRecursive" />
+        <e p="Pages" t="Include">
+          <e p="Error.razor" t="Include" />
+          <e p="Index.razor" t="Include" />
+          <e p="ToDoItems" t="Include">
+            <e p="Add.razor" t="Include" />
+            <e p="Index.razor" t="Include" />
+          </e>
+          <e p="_Host.cshtml" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Shared" t="Include">
+          <e p="MainLayout.razor" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="_Imports.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="docker-compose.override.yml" t="Include" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.Blazor.AssemblyInfo.cs" t="Include" />
+              <e p="FullCleanProject.Blazor.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="src/FullCleanProject.Domain" t="IncludeRecursive">
+        <e p="FullCleanProject.Domain.csproj" t="IncludeRecursive" />
+        <e p="Shared" t="Include">
+          <e p="DomainEventBase.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+          <e p="IDomainEvent.cs" t="Include" />
+          <e p="IDomainEventNotification.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+        </e>
+        <e p="ToDoItems" t="Include">
+          <e p="ToDoItem.cs" t="Include" />
+          <e p="ToDoItemAddedEvent.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="src/FullCleanProject.Infrastructure" t="IncludeRecursive">
+        <e p="FullCleanProject.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="Shared" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
+          <e p="EfRepository.cs" t="Include" />
+          <e p="Events" t="Include">
+            <e p="DomainEventsDispatcher.cs" t="Include" />
+            <e p="IDomainEventsDispatcher.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="src/FullCleanProject.Web" t="IncludeRecursive">
+        <e p="FullCleanProject.Web.csproj" t="IncludeRecursive" />
+        <e p="Pages" t="Include">
+          <e p="About.cshtml" t="Include" />
+          <e p="About.cshtml.cs" t="Include" />
+          <e p="Contact.cshtml" t="Include" />
+          <e p="Contact.cshtml.cs" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Index.cshtml.cs" t="Include" />
+          <e p="Privacy.cshtml" t="Include" />
+          <e p="Privacy.cshtml.cs" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_CookieConsentPartial.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+          <e p="ToDo.cshtml" t="Include" />
+          <e p="ToDo.cshtml.cs" t="Include" />
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="docker-compose.override.yml" t="Include" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.Web.AssemblyInfo.cs" t="Include" />
+              <e p="FullCleanProject.Web.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+            <e p="site.min.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="banner1.svg" t="Include" />
+            <e p="banner2.svg" t="Include" />
+            <e p="banner3.svg" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+            <e p="site.min.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE" t="Include" />
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-theme.css" t="Include" />
+                  <e p="bootstrap-theme.css.map" t="Include" />
+                  <e p="bootstrap-theme.min.css" t="Include" />
+                  <e p="bootstrap-theme.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="glyphicons-halflings-regular.eot" t="Include" />
+                  <e p="glyphicons-halflings-regular.svg" t="Include" />
+                  <e p="glyphicons-halflings-regular.ttf" t="Include" />
+                  <e p="glyphicons-halflings-regular.woff" t="Include" />
+                  <e p="glyphicons-halflings-regular.woff2" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="npm.js" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="jquery" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE.md" t="Include" />
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="tests/FullCleanProject.FakeData" t="IncludeRecursive">
+        <e p="FullCleanProject.FakeData.csproj" t="IncludeRecursive" />
+        <e p="ToDoItems" t="Include">
+          <e p="TestDataExtension.cs" t="Include" />
+          <e p="ToDoItemData.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.FakeData.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="tests/FullCleanProject.IntegrationTests" t="IncludeRecursive">
+        <e p="Api" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="ToDoControllerShould.cs" t="Include" />
+          </e>
+          <e p="IApiDefinition.cs" t="Include" />
+        </e>
+        <e p="FullCleanProject.IntegrationTests.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="BaseIntegrationTest.cs" t="Include" />
+          <e p="CustomWebApplicationFactory.cs" t="Include" />
+          <e p="DataInitializer.cs" t="Include" />
+        </e>
+        <e p="Web" t="Include">
+          <e p="Pages" t="Include">
+            <e p="IndexShould.cs" t="Include" />
+            <e p="ToDoShould.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.IntegrationTests.AssemblyInfo.cs" t="Include" />
+              <e p="RefitStubs.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="tests/FullCleanProject.UnitTests" t="IncludeRecursive">
+        <e p="Api" t="Include" />
+        <e p="Application" t="Include">
+          <e p="Shared" t="Include" />
+          <e p="ToDoItems" t="Include">
+            <e p="Events" t="Include">
+              <e p="ToDoItemAddedEventHandlerShould.cs" t="Include" />
+            </e>
+            <e p="Specifications" t="Include">
+              <e p="AllToDoItemsShould.cs" t="Include" />
+              <e p="ToDoItemsByStatusShould.cs" t="Include" />
+            </e>
+            <e p="UseCases" t="Include">
+              <e p="ToDoItemsQueryHandlerShould.cs" t="Include" />
+              <e p="ToDoItemsRequestShould.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Domain" t="Include">
+          <e p="ToDoItems" t="Include">
+            <e p="ToDoItemShould.cs" t="Include" />
+          </e>
+        </e>
+        <e p="FullCleanProject.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="Web" t="Include">
+          <e p="Pages" t="Include">
+            <e p="ToDoModelShould.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FullCleanProject.UnitTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="$PROJECT_DIR$/../README.md" t="Include" />
+  </component>
+</project>
